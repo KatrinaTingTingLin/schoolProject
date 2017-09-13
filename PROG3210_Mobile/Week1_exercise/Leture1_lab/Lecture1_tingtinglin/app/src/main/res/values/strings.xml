@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lecture1_tingtinglin</string>
+
+    <string name="title_activity_splashscreen">splashscreen</string>
+    <string name="dummy_button">Start</string>
+    <string name="Hello">Hello</string>
+</resources>
