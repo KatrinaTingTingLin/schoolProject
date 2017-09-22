@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Starbucks</string>
+
+    <!-- AppLoadActivity -->
+
+
+    <!-- MainActivity -->
+    <string name="welcome">Order ahead, pay with your phone, earn Stars and Rewards.</string>
+    <string name="action_join_rewards">Join Rewards</string>
+    <string name="action_sign_in">Sign in</string>
+
+    <!-- LoginActivity -->
+    <string name="action_forgot_username">Forgot username?</string>
+    <string name="action_forgot_password">Forgot password?</string>
+
+    <!-- RegisterActivity -->
+
+
+    <!-- HomeActivity -->
+
+    <string name="prompt_email">Email or username</string>
+    <string name="prompt_password">Password</string>
+
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+</resources>
