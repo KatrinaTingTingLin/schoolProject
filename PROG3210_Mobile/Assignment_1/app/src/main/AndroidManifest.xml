@@ -13,7 +13,7 @@
         android:label="">
         <activity
             android:name=".AppLoadActivity"
-            android:theme="@style/no_title">
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,7 +21,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LoginActivity">
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_sign_in"
+            android:theme="@style/FullscreenLightTheme"
+            android:windowSoftInputMode="stateHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
@@ -33,12 +36,22 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name=".HomeActivity"
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_home"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/FullscreenLightTheme"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
     </application>
-
 </manifest>

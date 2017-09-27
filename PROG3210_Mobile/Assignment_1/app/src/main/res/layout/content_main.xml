@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
+            android:id="@+id/toolbar_main"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:popupTheme="@style/AppTheme.PopupOverlay" />
@@ -48,8 +48,8 @@
             android:layout_gravity="center"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="@string/welcome"
-            android:textSize="30dp"
+            android:text="@string/longtext_welcome"
+            android:textSize="25dp"
             android:textColor="@color/white"
             android:fontFamily="sans-serif"
             android:layout_marginLeft="10dp"
@@ -86,7 +86,7 @@
             android:textSize="15dp"
             android:textColor="@color/white"
             android:fontFamily="sans-serif"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="8dp"
             app:layout_constraintTop_toBottomOf="@+id/txtMainPageWelcome"
             app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginBottom="10dp"

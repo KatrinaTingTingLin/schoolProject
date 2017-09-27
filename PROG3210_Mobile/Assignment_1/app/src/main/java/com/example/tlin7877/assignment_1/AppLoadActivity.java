@@ -33,7 +33,7 @@ public class AppLoadActivity extends Activity {
                 AppLoadActivity.this.startActivity(mainIntent);
                 AppLoadActivity.this.finish();
             }
-        }, 2000);
+        }, 5000);
     }
 
 
