@@ -10,7 +10,11 @@
     <color name="black_overlay">#66000000</color>
     <color name="navigator_TopBlack">#222222</color>
     <color name="navigator_BottomBlack">#2D2926</color>
+    <color name="form_background">#F7F7F7</color>
     <color name="transparent">#00FFFFFF</color>
+
+
+
 </resources>
 
 

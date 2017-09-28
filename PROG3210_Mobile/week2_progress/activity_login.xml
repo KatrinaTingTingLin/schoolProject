@@ -8,7 +8,6 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@color/form_background"
     tools:context="com.example.tlin7877.assignment_1.LoginActivity">
 
     <!-- Login progress -->
@@ -21,11 +20,12 @@
         android:visibility="gone" />
 
     <ScrollView
+        android:id="@+id/login_form"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <LinearLayout
-            android:id="@+id/frm_sign_in"
+            android:id="@+id/email_login_form"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content">
 
                 <EditText
-                    android:id="@+id/txtEmail_sign_in"
+                    android:id="@+id/txtEmail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/prompt_email"
@@ -50,11 +50,11 @@
                 android:layout_height="wrap_content">
 
                 <EditText
-                    android:id="@+id/txtPassword_sign_in"
+                    android:id="@+id/txtPassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/prompt_password"
-                    android:imeActionId="@+id/btnSignIn_sign_in"
+                    android:imeActionId="@+id/login"
                     android:imeActionLabel="@string/action_sign_in_short"
                     android:imeOptions="actionUnspecified"
                     android:inputType="textPassword"
@@ -63,48 +63,14 @@
 
             </android.support.design.widget.TextInputLayout>
 
-
             <Button
-                android:id="@+id/btnForgotUsernamesign_in"
-                android:background="@color/transparent"
-                android:theme="@style/buttonStyle"
+                android:id="@+id/btnLogin"
                 style="?android:textAppearanceSmall"
-                android:layout_weight="1"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="@string/action_forgot_username"
-                android:textColor="@color/green"
-                android:textStyle="bold" />
-
-            <Button
-            android:id="@+id/btnForgotPassword_sign_in"
-            android:background="@color/transparent"
-            android:theme="@style/buttonStyle"
-            style="?android:textAppearanceSmall"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="@string/action_forgot_password"
-            android:textColor="@color/green"
-            android:textStyle="bold" />
-
-            <Button
-                android:id="@+id/btnSignIn_sign_in"
-                android:theme="@style/buttonStyle"
-                android:background="@drawable/rounded_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_gravity="right"
                 android:text="@string/action_sign_in"
-                android:textSize="18dp"
-                android:textColor="@color/white"
-                android:fontFamily="sans-serif"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
         </LinearLayout>
     </ScrollView>

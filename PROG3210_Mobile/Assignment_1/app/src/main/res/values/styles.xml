@@ -16,7 +16,7 @@
         <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
     </style>
 
-    <style name="FullscreenLightTheme" parent="AppTheme">
+    <style name="FullscreenLightTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="windowActionBar">true</item>
         <item name="android:windowNoTitle">false</item>
         <item name="android:windowFullscreen">true</item>
